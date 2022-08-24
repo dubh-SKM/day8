@@ -1,0 +1,36 @@
+
+
+
+
+ul {
+    list-style-type: none;
+    background-color: rgba(1, 1, 103, 0.489);
+    text-align: center;
+
+}
+
+ul li {
+    display: inline-block;
+    border: 2px solid black;
+    height: 20px;
+    padding: 15px;
+    margin: 15px;
+    
+}
+ul li a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    transition: background-color .15s;
+    font-weight: bold;
+
+}
+
+ul li a:hover {
+    background-color: rgb(0, 0, 0);
+    color:rgb(0, 237, 237);
+    font-weight: bold;
+    
+}
+
